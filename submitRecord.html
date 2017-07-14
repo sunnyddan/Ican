@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> i can </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/revite.css">
+    <style type="text/css">
+        .postbar li {
+            border: none;
+        }
+        .mynav a:hover{
+
+            text-decoration: none;
+
+        }
+        .postbar li a {
+            display: block;
+        }
+
+        .mynav ul li {
+            height: 30px;
+            font-size: 1.25rem;
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        .mynav ul {
+            width: 60%;
+            margin: auto;
+        }
+
+        .myactive {
+            color: #3affff;
+            background-color: rgba(106, 121, 137, 0.6);
+            border-radius: 5px;
+        }
+        .myactive a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="center-block warper">
+    <div class="row">
+        <div class="logo row  col-md-3 col-sm-6 col-md-offset-0 col-sm-offset-3  col-xs-12 col-lg-3 col-lg-offset-0">
+            <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
+                <b>I Can</b>
+                <p><span>就业网</span></p>
+            </div>
+            <div class="col-md-6 col-sm-6   col-xs-12  col-lg-6">
+                <img src="images/logo_看图王.png" class="img-responsive" width="80%">
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-12 col-lg-9 ">
+            <ul class="nav nav-pills li-list nav-justified">
+                <li role="presentation"><a href="index.html">首页</a></li>
+                <li role="presentation"><a href="revite.html">求职</a></li>
+                <!-- <li role="presentation"><a href="#">招聘</a></li> -->
+                <li role="presentation"><a href="startUp.html">创业</a></li>
+                <li role="presentation"><a href="training.html">培训</a></li>
+                <li role="presentation"><a href="sequ.html">爱心社区</a></li>
+                <li role="presentation"><a href="#">关于我们</a></li>
+                <li role="presentation"><a href="#">登陆</a></li>
+            </ul>
+            <div class="search row">
+                <div class="col-md-3 col-sm-4">
+                    <p>职位、公司搜索</p>
+                </div>
+                <div class="col-md-9 col-sm-7 searchForm">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第二栏 -->
+    <div class="container" style="border:1px solid #6a7989;border-radius:5px;box-shadow: 0 0 10px;height: 450px">
+
+        <div class="row" style="height: 100%">
+
+            <div class="col-md-3 col-sm-3" style="background-color:#96c8da;padding-bottom: 20px;height: 100%">
+
+                <div class="text-center" style="margin-top: 30px">
+
+                    <img src="images/1-1.jpg" width="60%" alt="====" class="img-responsive img-thumbnail">
+
+                    <h3 class="text-info">XXX</h3>
+
+                </div>
+
+                <div class="text-center mynav">
+
+                    <ul class="list-unstyled" id="my-ul">
+                        <li class="myactive">
+                            <a href="#">
+                                <span class="glyphicon glyphicon-home"></span>
+                                我的信息
+                            </a>
+                        </li>
+                        <li>
+                            <a href="resume/Creatresume.html">
+                                <span class="glyphicon glyphicon-folder-open"></span>
+                                简历管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-align-right"></span>
+                                投递记录
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                收藏职位
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-9 col-sm-9" style="height: 100%">
+
+                <!--我的信息-->
+                <div class="my-nav-left" style="display: none">
+
+                    <h2 class="page-header">
+                        <img src="images/1-1.jpg" height="50px" class="img-circle ">
+                        <span class="text-info">XXXXXXXXXXXXXXXX</span>
+                    </h2>
+                    <form class="form-horizontal">
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+
+                                <label class="control-label col-md-2">姓名</label>
+
+                                <div class="col-md-10">
+
+                                    <input type="text" class="form-control" value="XXX">
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label class="col-md-2 control-label">性别</label>
+
+                                <div class="col-md-10">
+
+                                    <label class="radio-inline">
+
+                                        <input type="radio" name="sex" value="male" checked>男
+
+                                    </label>
+
+                                    <label class="radio-inline">
+
+                                        <input type="radio" name="sex" value="female">女
+
+                                    </label>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label class="col-md-2 control-label">生日</label>
+
+                                <div class="col-md-10">
+
+                                    <input type="date" name="birth" value="2017-06-03" class="form-control">
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label class="col-md-2 control-label">地址</label>
+
+                                <div class="col-md-10">
+
+                                    <input type="text" class="form-control" value="XXXXXXXXXX" >
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label class="col-md-2 control-label">教育</label>
+
+                                <div class="col-md-10">
+
+                                    <select name="edu" class="form-control">
+
+                                        <option value="xiaoxue" selected>小学</option>
+                                        <option value="chuzhong">初中</option>
+                                        <option value="gaozhong">高中</option>
+                                        <option value="dazhuan">大专</option>
+                                        <option value="zhongzhaun">中专</option>
+                                        <option value="benke">本科</option>
+                                        <option value="yanjiusheng">研究生</option>
+                                        <option value="shuoshi">硕士</option>
+                                        <option value="boshi">博士</option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+
+                                <label class="col-md-4 control-label">残疾描述</label>
+
+                                <div class="col-md-8">
+
+                                    <input type="text" class="form-control" name="disable" value="XXX">
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label class="col-md-4 control-label">残疾等级</label>
+
+                                <div class="col-md-8">
+
+                                    <select name="level" id="">
+
+                                        <option value="one">一级</option>
+                                        <option value="two">二级</option>
+                                        <option value="three">三级</option>
+                                        <option value="four">四级</option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <button class="btn btn-primary pull-right">保存</button>
+                        </div>
+
+                    </form>
+                </div>
+
+                <!--简历管理-->
+                <div class="my-nav-left" style="display: none">
+
+                    <h2 class="page-header">简历管理</h2>
+
+                </div>
+
+                <!--投递记录-->
+                <div class="my-nav-left"  style="display: none">
+
+                    <h3 class="page-header">投递记录
+                        <small>（只为你保存最近六个月的记录，共0条）</small>
+                    </h3>
+
+                    <div class="content text-center" >
+                        暂无记录
+                        <nav aria-label="Page navigation" class="mypage" style="position: absolute;bottom: 0;right: 5%  ">
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                </div>
+
+
+                <!--收藏职位-->
+                <div class="my-nav-left"  style="display: none">
+
+                    <h2 class="page-header text-info">
+
+                        收藏的职位
+
+                    </h2>
+
+                    <div class="my-content col-md-12">
+
+                        <div class="col-md-2">
+
+                            <img src="images/1-1.jpg" height="90px">
+
+                        </div>
+
+                        <div class="col-md-6" style="padding-top: 0px">
+
+                            <h3 class="text-success" style="margin-top: 0"><a href="#">XXXXXX<span class="text-danger">（4k以上）</span></a></h3>
+
+                            <span class="text-muted">携程旅行网 / 北京 / 1-3年 / 本科</span>
+                            <br>
+                            <span class="text-muted">出勤福利</span>
+
+                        </div>
+
+                        <div class="col-md-4" style="height: 100%">
+
+                            <span class="text-muted">发布时间：2014-06-27 09:37</span>
+                            <br>
+                            <span class="bottom"><a href="#">取消收藏</a></span>
+                            <span>|</span>
+                            <span><a href="#">投个简历</a></span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div style="position: absolute;bottom: 0;left: 0" class="col-md-12 text-center">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="footer">
+    <p>首页|创业|培训</p>
+    <p>版权拥有：I Can 就业网</p>
+    <p>手机版 |登陆</p>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+
+    $('.list_img img').each(function () {
+        $(this).height(Math.floor(($('.list_img div').eq(0).height()) * 0.8));
+        $(this).width($('.list_img div').eq(0).width());
+    });
+
+
+    $("#my-ul>li").click(function () {
+
+        //获取当前位置
+        var index = $(this).index();
+
+        $(this).addClass("myactive");
+
+        $("#my-ul>li").not($(this)).removeClass("myactive");
+
+        var left_nav = $(".my-nav-left");
+        var left_nav_div = $(left_nav[index]);
+
+        left_nav_div.show();
+
+        left_nav.not(left_nav_div).hide();
+
+    });
+
+    $(function () {
+        $($(".my-nav-left")[0]).show();
+    })
+
+</script>
+</body>
+</html>
